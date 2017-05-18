@@ -10,6 +10,8 @@ public class TesteCastDown {
 		System.out.println(c.getCpf());
 		System.out.println("Teste");
 		System.out.println(c.getCpf());
+		System.out.println("Teste 2");
+		System.out.println(c.getCpf());
 		
 		// Cast UP de Cliente para Pessoa
 		Pessoa p = c;
