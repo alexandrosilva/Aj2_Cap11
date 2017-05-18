@@ -8,6 +8,8 @@ public class TesteCastDown {
 		Cliente c = new Cliente();
 		c.setCpf("1234656789");
 		System.out.println(c.getCpf());
+		System.out.println("Teste");
+		System.out.println(c.getCpf());
 		
 		// Cast UP de Cliente para Pessoa
 		Pessoa p = c;
